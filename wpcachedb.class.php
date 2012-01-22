@@ -1,12 +1,10 @@
 <?php
 /**
- * Super Simplr DB Query Caching for WordPress
- *
+ * Simple WordPress Database Caching for Developers
  * @package WordPress
  * @since 3.0
  *
- * ... To use this class just include the file in you plugin or theme and then use. Make sure
- * the cache directory is writable. For usage instructions visit http://www.mikevanwinkle.com/wordpress/super-simple-db-cache-for-wp
+ * instructions comming soon ...
  *
  */
 define(CACHE_DIR,dirname(__FILE__).'/cache');
