@@ -10,7 +10,7 @@
  */
 
 define("CACHE_DIR", ABSPATH.'/wp-content/themes/twentyten/cache');
-define("CACHE_DRIVER", 'APC');
+define("CACHE_DRIVER", 'DEFAULT'); //possible values are "APC" and "DEFAULT"
 class WPCacheDB extends wpdb {
 	
 	public $cache_key;
